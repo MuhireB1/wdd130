@@ -1,4 +1,45 @@
-nav {
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:  border-box;
+  display: flow-root;
+}
+
+/* class selectors */
+.box{
+  margin: 1rem;
+  border: 1px solid rgb(0 0 0 / 10%);
+  padding: 1rem;
+  background-color: #ddd;
+  color: #000;
+  position:relative;
+}
+
+main img{
+  width: 150px;
+  height: auto;
+  border: 1px solid steelblue;
+  padding: 2px;
+  box-shadow: 0 0 30px gray;
+  float: right;
+  margin: 0 0 1rem 1rem;
+}
+
+aside h2{
+  position:absolute;
+  top: 35px;
+  left: 170px;
+  
+}
+
+
+
+
+
+
+
+
+/* nav {
   background-color: darkblue;
   padding: 10px;
 }
@@ -23,4 +64,4 @@ img {
 
 p {
   padding: 10px;
-}
+/* } * */
