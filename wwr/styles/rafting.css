@@ -1,0 +1,107 @@
+:root {
+  --primary-color: #055a05; /* forest green */
+  --secondary-color: #f4a261; /* warm sand */
+  --accent1-color: #264653; /* dark slate blue */
+  --accent2-color: #e9c46a; /* light golden yellow */
+  --heading-font: "Times New Roman", "Georgia", serif;
+  --body-font: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: var(--body-font);
+  color: var(--accent1-color);
+}
+
+header, main, footer {
+  width: 840px;
+  margin: 0 auto;
+}
+
+
+h1, h2 {
+  font-family: var(--heading-font);
+  color: var(--accent1-color);
+  background-color: var(--accent1-color);
+  color: #fff; /* Ensure text is readable on dark background */
+}
+
+
+nav, p, section, article {
+  margin: 16px;
+  padding: 8px;
+}
+
+/* ...existing code... */
+.hero {
+  position: relative;
+}
+
+.hero article {
+  position: absolute;
+  top: 78%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  background: rgba(38, 70, 83, 0.7);
+  color: #fff;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+  width: 80%;
+  max-width: 600px;
+  z-index: 2;
+}
+
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* Optional: ensure .hero has enough height for overlay */
+.hero {
+  min-height: 400px;
+}
+
+
+  h1 {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  padding: 16px;
+  text-align: center;
+  opacity: 0.7;
+  background-color: var(--accent1-color);
+  color: #fff; /* white text - make sure there is enough contrast with the background-color */
+}
+Style h1 {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  padding: 16px;
+  text-align: center;
+  opacity: 0.7;
+  background-color: var(--accent1-color);
+  color: #fff; /* white text - make sure there is enough contrast with the background-color */
+}
+
+.hero article img {
+  float: right;
+  width: 125px;
+}
+
+.social.media img {
+    width: 24px;
+    height: 24px;
+}
