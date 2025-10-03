@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing:  border-box;
-  display: flow-root;
+  
 }
 
 /* class selectors */
@@ -92,4 +92,25 @@ img {
 
 p {
   padding: 10px;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0.5rem 0;
+  gap: 1rem;
+  /* Remove max-width if you want full width */
+  /* max-width: 840px; */
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; /* spreads links to edges */
+  align-items: center;
+  background-color: steelblue;
+  padding: 1rem;
+  width: 100%;
 }
