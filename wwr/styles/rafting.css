@@ -234,7 +234,7 @@ section h2{
   margin-bottom: 7px;
 }
 
-.head h2{
+.head h1{
   display:block;
   margin: 2% 40%;
   width:100%;
@@ -260,7 +260,7 @@ section h2{
   margin: 0 auto;
   padding: 1rem;
 }
-.map iframe{
+.map {
   grid-column: 1/2;
   width: 400px;
   height:350px;
