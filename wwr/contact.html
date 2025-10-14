@@ -20,7 +20,7 @@
             <a href="contact.html">Contact Us</a>
         </nav>
     </header>
-    <main class="all">
+    <main>
         <div class="head">
             <h2>White Water Rafting Company</h2>
             <p>123 Main River Street</p>
@@ -28,72 +28,64 @@
             <p>+1 999 999 9999</p>
             <p>info@whitewater.com</p>
         </div>
+        <div class="all">
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d63812.130680286624!2d30.264588300000007!3d-1.6023551999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2srw!4v1760359699787!5m2!1sen!2srw"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
 
-        <div class="map">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d63812.130680286624!2d30.264588300000007!3d-1.6023551999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2srw!4v1760359699787!5m2!1sen!2srw"
-                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
+            <div class="form">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Name"><br><br>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Email"><br><br>
+                <label>Message Purpose</label>
+                <div class="radio">
+                    <input type="radio" id="general" name="message1" value="general Inquiry">
+                    <label for="general">General Inquiry</label><br>
+                    <input type="radio" id="reservation" name="message1" value="Reservation Question">
+                    <label for="reservation">Reservation Question</label><br>
+                    <input type="radio" id="suggestion" name="message1" value="Website Suggestion">
+                    <label for="suggestion">Website Suggestion</label><br><br>
+                </div>
 
-        <div class="form">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="Name"><br><br>
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="Email"><br><br>
-            <label for="message1">Message Purpose</label><br>
-            <input type="radio" id="message1" name="message1" value="general Inquiry">general Inquiry<br>
-            <input type="radio" id="message1" name="message1" value="Reservation Question">Reservation Question<br>
-            <input type="radio" id="message1" name="message1" value="Website Suggestion">Website Suggestion<br><br>
+                <label for="message2">Message</label>
+                <textarea id="message2" name="message2" rows="4" cols="50" placeholder="Type here"></textarea><br><br>
 
-            <label for="message2">Message</label>
-            <textarea id="message2" name="message2" rows="4" cols="50" placeholder="Type here"></textarea><br><br>
+                <input type="checkbox" id="subscribe" name="subscribe">
+                <label for="subscribe">Please subscribe me to the monthly newsletter</label><br><br>
 
-            <input type="checkbox" id="subscribe" name="subscribe">
-            <label for="subscribe">Please subscribe me to the monthly newsletter</label><br><br>
-
-            <button type="submit">Get in Touch!</button><br><br>
+                <button type="submit">Get in Touch!</button><br><br>
+            </div>
         </div>
         <div class="profile">
-            <h2>We Are Hereto Serve You</h2>
-            <figure>
-                <img src="images/employee1.jpg" alt="A face of a person">
-                <figcaption>Country Director</figcaption>
-            </figure>
-            <figure>
-                <img src="images/employee2.jpg">
-                <figcaption>Technical Specialist</figcaption>
-            </figure>
-            <figure>
-                <img src="images/employee3.jpg">
-                <figcaption>Sales Manager</figcaption>
-            </figure>
+            <h2>We Are Here to Serve You</h2>
+            <div class="foto">
+                <figure>
+                    <img src="images/employee1.jpg" alt="A face of a person">
+                    <figcaption>Country Director</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee2.jpg">
+                    <figcaption>Technical Specialist</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee3.jpg">
+                    <figcaption>Sales Manager</figcaption>
+                </figure>
+            </div>
+        </div>
     </main>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</body>
-<footer>
-    <p>©2025 💦 White Water Rafting Company 💦 Muhire Bienvenue </p>
-    <nav class="socialmedia">
-        <a href="https://www.facebook.com"> <img src="images/facebookr.svg" alt="Facebook"></a>
-        <a href="https://www.linkedin.com"> <img src="images/linkedin.svg" alt="LinkedIn"></a>
-        <a href="https://www.youtube.com"> <img src="images/youtube.svg" alt="Youtube"></a>
-    </nav>
-</footer>
+    <footer>
+        <p>©2025 💦 White Water Rafting Company 💦 Muhire Bienvenue </p>
+        <nav class="socialmedia">
+            <a href="https://www.facebook.com"> <img src="images/facebookr.svg" alt="Facebook"></a>
+            <a href="https://www.linkedin.com"> <img src="images/linkedin.svg" alt="LinkedIn"></a>
+            <a href="https://www.youtube.com"> <img src="images/youtube.svg" alt="Youtube"></a>
+        </nav>
+    </footer>
 </body>
 
 </html>
