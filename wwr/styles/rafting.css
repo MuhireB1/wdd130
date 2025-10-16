@@ -504,3 +504,8 @@ article p{
   margin:20px auto;
   background-color: rgba(233, 22, 7, 0.87);
 }
+
+.trips{
+  display:grid;
+  
+}
